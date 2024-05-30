@@ -1,0 +1,75 @@
+body {
+    background-color: #f4f4f4; /* Fundo claro e profissional */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Cor do texto principal */
+}
+
+h1 {
+    color: #2c3e50; /* Azul escuro elegante */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em; /* Tamanho da fonte aumentado para destaque */
+}
+
+#pr1 {
+    text-align: center;
+    color: #555; /* Cinza médio para contraste suave */
+    margin: 20px;
+    font-size: 1.2em; /* Tamanho da fonte um pouco maior */
+}
+
+.servicos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.servicos ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    min-width: 200px; /* Define uma largura mínima para as listas */
+    background-color: #ffffff; /* Fundo branco para as listas */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.servicos ul li {
+    margin: 10px 0;
+    color: #333; /* Cor do texto para as listas */
+}
+
+#th2 {
+    color: #c0392b; /* Vermelho elegante */
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contatos {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contatos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contatos ul li {
+    margin: 10px 0;
+}
+
+.contatos a {
+    text-decoration: none;
+    color: #2980b9; /* Azul vibrante para links */
+}
+
+.contatos a:hover {
+    text-decoration: underline;
+}
